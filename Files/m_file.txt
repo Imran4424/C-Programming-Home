@@ -1,0 +1,13 @@
+
+Name: Delowar 
+Marks: 90
+Name: Supti 
+Marks: 90
+Name: kaium 
+Marks: 85
+Name: Kaushik 
+Marks: 85
+Name: Somrat 
+Marks: 80
+Name: Shakila 
+Marks: 80
