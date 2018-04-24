@@ -2,6 +2,7 @@
 #include <string.h>
 
 
+
 typedef long long int lli;
 
 
@@ -19,66 +20,47 @@ int str_len(char str[])
     return length;
 }
 
-int chk_character(char c)
-{
-    if(c == ' ')
-    {
-        return 1;
-    }
-
-    return 0;
-}
-
 
 int main()
 {
-    char str[20];
-
-    scanf("%[^\n]%*c",str);
+    char str[] = "I am a Programmer";
 
     int len = str_len(str);
 
     char reverse_str[len];
 
-    int i,j,k = 0,done;
+
+    int i,j,k = 0, next_end = 0;
 
     for(i = 0; i < len; i++)
     {
-        if(chk_character(str[i]) || str[i+1] == '\0')
+        if('\0' == str[i+1])
         {
-            if(str[i+1] == '\0')
+            for(j = i; j >= next_end; j--)
             {
-                done = 0;
-            }
-
-
-            for(j = i-1; chk_character(str[j]); j--)
-            {
-                if(str[i+1] == '\0' && done == 0)
-                {
-                    j = i;
-
-                    done = 1;
-                }
-
-                printf("%d %d\n",j,k);
-
                 reverse_str[k] = str[j];
-
                 k++;
+            }
+        }
 
-                if( j == 0)
-                {
-                    break;
-                }
+
+        if(' ' == str[i])
+        {
+            for(j = i-1; j >= next_end; j--)
+            {
+                reverse_str[k] = str[j];
+                k++;
             }
 
             reverse_str[k] = ' ';
             k++;
+
+            next_end = i+1;
         }
+
     }
 
-    printf("%s\n",reverse_str);
+    printf("%s",reverse_str);
 
     return 0;
 }
