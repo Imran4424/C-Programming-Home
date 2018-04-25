@@ -26,7 +26,7 @@ int decending_chk(int ar[], int ar_size)
 {
     int max_val = ar[0];
 
-    for(int )
+    for(int)
 }
 
 
