@@ -5,17 +5,17 @@ typedef long long int lli;
 
 int ascending_chk(int ar[], int ar_size)
 {
-    int min_val = ar[0];
+    int next_min_val = ar[0];
 
     for(int i=0;i < ar_size; i++)
     {
-        if(ar[i] < min_val)
+        if(ar[i] < next_min_val)
         {
             return 0;
         }
         else
         {
-            min_val = ar[i];
+            next_min_val = ar[i];
         }
     }
 
@@ -24,9 +24,19 @@ int ascending_chk(int ar[], int ar_size)
 
 int decending_chk(int ar[], int ar_size)
 {
-    int max_val = ar[0];
+    int next_max_val = ar[0];
 
-    for(int)
+    for(int i = 0;i < ar_size; i++)
+    {
+        if(ar[i] > next_max_val)
+        {
+            return 0;
+        }
+        else
+        {
+            next_max_val = ar[i];
+        }
+    }
 }
 
 
