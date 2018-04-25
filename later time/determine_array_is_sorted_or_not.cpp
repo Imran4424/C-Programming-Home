@@ -42,7 +42,12 @@ int decending_chk(int ar[], int ar_size)
 
 int array_sor_chk(int ar[], int ar_size)
 {
+    if(ascending_chk(ar,ar_size) || decending_chk(ar,ar_size))
+    {
+        return 1;
+    }
 
+    return 0;
 }
 
 int main()
@@ -70,5 +75,5 @@ int main()
         printf("Array is not sorted\n");
     }
 
-    retrun 0;
+    return 0;
 }
