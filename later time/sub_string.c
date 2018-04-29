@@ -42,7 +42,8 @@ int main()
 
             if(j == str2_len)
             {
-                printf("Sub string is found\n")
+                printf("Sub string is found\n");
+
             }
         }
     }
