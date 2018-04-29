@@ -49,6 +49,8 @@ int main()
                 break;
             }
         }
+
+        printf("Hi, i am ")
     }
 
     if(found == 0)
