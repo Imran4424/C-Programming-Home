@@ -24,6 +24,7 @@ int main()
     //scanf("%[^\n]%*c",str2);
 
     gets(str);
+    gets(str);
 
     str_len = strlen(str);
     str2_len = strlen(str2);
