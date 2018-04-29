@@ -18,7 +18,7 @@ int main()
 {
     char str[50],str2[50];
 
-    int i,j,str_len,str2_len, fou;
+    int i,j,str_len,str2_len, foun;
 
     scanf("%[^\n]%*c",str);
     scanf("%[^\n]%*c",str2);
