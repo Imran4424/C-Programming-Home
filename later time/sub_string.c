@@ -5,7 +5,8 @@ int main()
 {
     char str[50],str2[50];
 
-    scanf("[]")
+    scanf("%[^\n]%*c",str);
+    s
 
     return 0;
 }
