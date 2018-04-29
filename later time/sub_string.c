@@ -23,7 +23,7 @@ int main()
     scanf("%[^\n]%*c",str);
     scanf("%[^\n]%*c",str2);
 
-    str_len = string_size(str);
+    //str_len = string_size(str);
     str2_len = string_size(str2);
 
     for(i = 0;i < (str_len - str2_len); i++)
