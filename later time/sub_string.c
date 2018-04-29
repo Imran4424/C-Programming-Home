@@ -50,7 +50,7 @@ int main()
             }
         }
 
-        printf("Hi, i am here - %c\n");
+        printf("Hi, i am here - %c\n",str[i]);
     }
 
     if(found == 0)
