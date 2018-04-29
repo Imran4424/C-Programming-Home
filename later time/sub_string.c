@@ -20,8 +20,8 @@ int main()
 
     int i,j,str_len,str2_len, found = 0;
 
-    scanf("%[^\n]%*c",str);
-    scanf("%[^\n]%*c",str2);
+    //scanf("%[^\n]%*c",str);
+    //scanf("%[^\n]%*c",str2);
 
     str_len = strlen(str);
     str2_len = strlen(str2);
