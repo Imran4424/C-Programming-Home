@@ -39,7 +39,7 @@ int main()
 
                 if(str2[j] != str[i])
                 {
-                    printf("%c %c\n",str[i],str2[j]);
+                    //printf("%c %c\n",str[i],str2[j]);
 
                     break;
                 }
@@ -55,7 +55,7 @@ int main()
             }
         }
 
-        printf("Hi, i am here - %c\n",str[i]);
+        //printf("Hi, i am here - %c\n",str[i]);
     }
 
     if(found == 0)
