@@ -39,6 +39,11 @@ int main()
                     break;
                 }
             }
+
+            if(j == str2_len)
+            {
+                printf("Sub string is found\n")
+            }
         }
     }
 
