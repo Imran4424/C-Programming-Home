@@ -44,7 +44,7 @@ int main()
             {
                 printf("Sub string is found\n");
 
-                found
+                found = 1;
 
                 break;
             }
