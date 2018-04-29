@@ -23,8 +23,8 @@ int main()
     //scanf("%[^\n]%*c",str);
     //scanf("%[^\n]%*c",str2);
 
-    gets(str);
-    gets(str2);
+    //gets(str);
+    //gets(str2);
 
     str_len = strlen(str);
     str2_len = strlen(str2);
@@ -37,7 +37,7 @@ int main()
             {
                 i++;
 
-                if(str[j] != str[i])
+                if(str2[j] != str[i])
                 {
                     printf("%c %c\n",str[i],str2[j]);
 
