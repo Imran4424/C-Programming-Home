@@ -5,7 +5,7 @@ int string_size(char str[])
 {
     int i,sz = 0;
 
-    for(i=0;str[i] != '/0';i++)
+    for(i=0;str[i] != '\0';i++)
     {
         sz++;
     }
