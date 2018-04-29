@@ -14,7 +14,7 @@ int main()
     len1 = strlen(str1);
     len2 = strlen(str2);
 
-    for(i = 0; i != '\0'; i++)
+    for(i = 0; str1[i] != '\0'; i++)
     {
 
         if(str2[0] == str1[i])
