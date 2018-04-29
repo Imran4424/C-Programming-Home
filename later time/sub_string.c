@@ -21,7 +21,7 @@ int main()
     int i,j,str_len,str2_len, found = 0;
 
     scanf("%[^\n]%*c",str);
-    //scanf("%[^\n]%*c",str2);
+    scanf("%[^\n]%*c",str2);
 
     //gets(str);
     //gets(str2);
