@@ -26,5 +26,7 @@ int main()
     str_len = string_size(str);
     str2_len = string_size(str2);
 
+    for(i = 0;i < (str_len -))
+
     return 0;
 }
