@@ -36,7 +36,7 @@ int main()
 
                 if(str[j] != str[i])
                 {
-                    bre
+                    break
                 }
             }
         }
