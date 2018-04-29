@@ -26,7 +26,6 @@ int main()
                 if(str2[j] != str1[i+j])
                 {
 
-
                     break;
                 }
             }
