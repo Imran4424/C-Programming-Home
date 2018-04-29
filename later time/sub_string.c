@@ -36,7 +36,7 @@ int main()
 
                 if(str[j] != str[i])
                 {
-                    printf("%c ")
+                    printf("%c %c\n")
 
                     break;
                 }
