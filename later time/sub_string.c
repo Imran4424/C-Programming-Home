@@ -24,7 +24,7 @@ int main()
     scanf("%[^\n]%*c",str2);
 
     str_len = strlen(str);
-    str2_len = string(str2);
+    str2_len = strlen(str2);
 
     for(i = 0;i < (str_len - str2_len); i++)
     {
