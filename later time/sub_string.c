@@ -23,6 +23,8 @@ int main()
     //scanf("%[^\n]%*c",str);
     //scanf("%[^\n]%*c",str2);
 
+    gets(str);
+
     str_len = strlen(str);
     str2_len = strlen(str2);
 
