@@ -45,7 +45,6 @@ int main()
                 printf("Sub string is found\n");
 
                 found = 1;
-
                 break;
             }
         }
