@@ -52,7 +52,7 @@ int main()
 
     if(found == 0)
     {
-        printf("")
+        printf("Sub string is not found")
     }
 
     return 0;
