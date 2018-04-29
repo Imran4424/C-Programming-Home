@@ -26,7 +26,7 @@ int main()
     str_len = strlen(str);
     str2_len = strlen(str2);
 
-    for(i = 0;i < (str_len - str2_len); i++)
+    for(i = 0;i < str[i] != '\0'; i++)
     {
         if(str2[0] == str[i])
         {
@@ -39,6 +39,7 @@ int main()
                     break;
                 }
             }
+
 
             if(j == str2_len)
             {
