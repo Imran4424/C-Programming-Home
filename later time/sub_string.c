@@ -18,7 +18,7 @@ int main()
 {
     char str[50],str2[50];
 
-    int i,j;
+    int i,j,str_len,str2_len;
 
     scanf("%[^\n]%*c",str);
     scanf("%[^\n]%*c",str2);
@@ -26,7 +26,21 @@ int main()
     str_len = string_size(str);
     str2_len = string_size(str2);
 
-    for(i = 0;i < (str_len -))
+    for(i = 0;i < (str_len - str2_len); i++)
+    {
+        if(str2[0] == str[i])
+        {
+            for(j = 1;j < str2_len;j++)
+            {
+                i++;
+
+                if(str[j] != str[i])
+                {
+
+                }
+            }
+        }
+    }
 
     return 0;
 }
