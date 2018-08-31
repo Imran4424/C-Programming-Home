@@ -1,5 +1,5 @@
 /*
-	An integer variable contains 5. w
+	An integer variable contains 5. write a program that print the value of n.
 */
 
 #include <stdio.h>
