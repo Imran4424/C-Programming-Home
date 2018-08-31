@@ -1,3 +1,7 @@
+/*
+	An integer variable contains 5. w
+*/
+
 #include <stdio.h>
 
 int main()
