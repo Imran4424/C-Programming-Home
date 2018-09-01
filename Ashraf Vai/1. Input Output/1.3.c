@@ -2,7 +2,7 @@
 	Write a program that read and display an integer number
 */
 
-#include <stdio.h>
+#include <stdio.h> // for scanf() and printf() function
 
 int main()
 {
@@ -10,5 +10,6 @@ int main()
 
 	scanf("%d", &num);
 
+	printf("%d\n", num);
 	return 0;
 }
