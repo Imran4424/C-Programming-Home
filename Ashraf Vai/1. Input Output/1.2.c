@@ -2,7 +2,7 @@
 	An integer variable contains 5. write a program that print the value of n.
 */
 
-#include <stdio.h>
+#include <stdio.h> // for printf() function
 
 int main()
 {
