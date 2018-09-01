@@ -3,7 +3,7 @@
 */
 
 
-#include <stdio.h>
+#include <stdio.h>  // for printf() function
 
 int main()
 {
