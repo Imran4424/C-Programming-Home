@@ -6,7 +6,7 @@
 
 int main()
 {
-
+	float num;
 
 	return 0;
 }
