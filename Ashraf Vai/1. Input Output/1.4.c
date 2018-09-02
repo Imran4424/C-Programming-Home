@@ -17,7 +17,8 @@ int main()
 	printf("%.2f\n", num); // 2 precision
 
 	printf("%.3f\n", num); // 3 precision
-	printf("%.4f\n", num);
+	
+	printf("%.4f\n", num); // 4 precision
 
 	return 0;
 }
