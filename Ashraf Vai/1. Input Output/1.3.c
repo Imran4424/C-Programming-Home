@@ -11,6 +11,10 @@ int main()
 	scanf("%d", &num);
 
 	printf("%d\n", num);
-	
+
 	return 0;
 }
+
+/*
+	here %d is the format specifier of int number
+*/
