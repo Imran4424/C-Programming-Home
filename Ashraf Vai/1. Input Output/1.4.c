@@ -12,7 +12,10 @@ int main()
 
 	printf("%f\n", num);
 
-	printf("%d\n", );
+	printf("%.1f\n", num);
+	printf("%.2f\n", num);
+	printf("%.3f\n", num);
+	printf("%.4f\n", num);
 
 	return 0;
 }
