@@ -27,6 +27,4 @@ int main()
 	here %f is the format specifier of float number
 
 	by default printf print the float number with 6 precision floating point number.
-
-
 */
