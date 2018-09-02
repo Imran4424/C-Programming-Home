@@ -8,7 +8,11 @@ int main()
 {
 	float num;
 
-	scanf("%f", num);
+	scanf("%f", &num);
+
+	printf("%f\n", num);
+
+	printf("%d\n", );
 
 	return 0;
 }
