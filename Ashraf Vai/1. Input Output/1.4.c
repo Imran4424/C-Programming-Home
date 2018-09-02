@@ -12,3 +12,7 @@ int main()
 
 	return 0;
 }
+
+/*
+	here %f is the format specifier of float number
+*/
