@@ -12,3 +12,7 @@ int main()
 
 	return 0;
 }
+
+/*
+	here %d is the format specifier of int number
+*/
