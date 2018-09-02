@@ -10,10 +10,11 @@ int main()
 
 	scanf("%f", &num);
 
-	printf("%f\n", num);
+	printf("%f\n", num); //default
 
-	printf("%.1f\n", num);
-	printf("%.2f\n", num);
+	printf("%.1f\n", num); // 1 precision
+
+	printf("%.2f\n", num); //
 	printf("%.3f\n", num);
 	printf("%.4f\n", num);
 
@@ -22,4 +23,8 @@ int main()
 
 /*
 	here %f is the format specifier of float number
+
+	by default printf print the float number with 6 precision floating point number.
+
+
 */
