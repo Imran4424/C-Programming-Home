@@ -4,3 +4,7 @@
 
 #include <stdio.h> // // for scanf() and printf() function
 
+int main()
+{
+	
+}
