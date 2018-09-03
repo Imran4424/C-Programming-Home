@@ -1,3 +1,3 @@
 /*
-	Write a program that read and display 
+	Write a program that read and display an long
 */
