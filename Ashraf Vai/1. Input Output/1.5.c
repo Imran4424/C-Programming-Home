@@ -8,7 +8,7 @@ int main()
 {
 	long num;
 
-	scanf(%l, &num);
+	scanf("%l", &num);
 
 	printf("%l\n", num);
 
