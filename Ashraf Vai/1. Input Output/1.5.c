@@ -6,7 +6,7 @@
 
 int main()
 {
-	
+	long num;
 
 	return 0;
 }
