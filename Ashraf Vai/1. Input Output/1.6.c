@@ -17,4 +17,14 @@ int main()
 
 /*
 	here %ld is the format specifier of long int number
+
+	actually it works for both long and long int
+
+	because, long is nothing but bigger version of int number
+
+	so we can write either long or long int
+
+	I like to write long int 
+
+	
 */
