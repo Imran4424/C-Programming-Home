@@ -8,9 +8,9 @@ int main()
 {
 	long num;
 
-	scanf("%l", &num);
+	scanf("%ld", &num);
 
-	printf("%l\n", num);
+	printf("%ld\n", num);
 
 	return 0;
 }
