@@ -14,3 +14,7 @@ int main()
 
 	return 0;
 }
+
+/*
+	here %ld is the format specifier of long number
+*/
