@@ -6,7 +6,7 @@
 
 int main()
 {
-	long num;
+	long int num;
 
 	scanf("%ld", &num);
 
