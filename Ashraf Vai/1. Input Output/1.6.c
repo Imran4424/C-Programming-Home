@@ -1,5 +1,5 @@
 /*
-	Write a program that read and display an long int number
+	Write a program that read and display an long integer number
 */
 
 #include <stdio.h> // for scanf() and printf() function
