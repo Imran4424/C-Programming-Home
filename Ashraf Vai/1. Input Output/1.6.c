@@ -16,5 +16,5 @@ int main()
 }
 
 /*
-	here %ld is the format specifier of long number
+	here %ld is the format specifier of long int number
 */
